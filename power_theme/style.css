@@ -1,0 +1,252 @@
+/*  
+Theme Name: The Power Theme
+Theme URI: http://www.100websolutions.com/
+Description: The Power Theme, leveraging the power of css with this Pagelines framework to give you a different look for your website.
+Version: 1.0.2
+Author: 100 Web Solutions
+Author URI: http://www.100websolutions.com
+Tags: themes, power, e-commerce, business, trading, brochure, brown, tan, copper, black, charcoal, css, features, light, technology
+
+Template: pagelines
+
+*/
+
+/*
+Themes follow the basic WordPress themes header scheme with the following additions:
+
+	Template: pagelines
+	Tells wordpress this is a childtheme and where the parent files are stored.
+	
+	Demo: http://www.100websolutions.com
+	Use this to point to a demo for this product.
+	
+	External: http://www.100websolutions.com/demos/power_theme
+	Use this to point to an external site, authors home page for example.
+	
+	Long: The Power Theme, leveraging the power of css with this Pagelines framework to give you a different look for your website.
+	Add a full description, used on the actual store page on http://www.pagelines.com/store/
+	
+*/
+
+/*
+ * File Naming Conventions
+ * -------------------------------------
+ *	style.css 		 - Main theme style file.
+ *  thumb.png		 - Thumbnail image used in the store and on pagelines.com for your product.
+ *  screenshot.png	 - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+ *	screenshot-1.png - Additional screenshots -1 -2 -3 etc (optional).
+ *	page.example.php - Custom page template, check the file for syntax. This is autoloaded.
+ *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
+ */
+
+
+html body.custom {
+	background: #1f1f1f url(images/power_bg.jpg) repeat-x;
+}
+
+.fixed_width #page {
+margin: 0px auto 0;
+}
+
+
+
+section#branding .content{ 
+	background: transparent url(images/power_top_glow.png) no-repeat;
+	border-bottom: 1px solid #aba186;
+}
+
+section#nav div.content{
+	background: #ccc url(images/power_nav.jpg) repeat-x;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);	
+}
+
+section#nav div.content-pad {
+	padding: 10px auto 0;
+}
+
+div.navigation_wrap {
+	border: none;
+}
+
+section#secondnav div.content-pad {
+	background: #1f1f1f url(images/box_glow.png) bottom center repeat-x;
+}
+
+html #secondnav li a {
+color: white;
+text-shadow: #595959 0 1px 0;
+}
+
+.page-template-page-home-php section#content div.content{
+	background: #ffffff url(images/linear_glow.png) no-repeat;
+	
+}
+
+section#content div.content, 
+section#fitText div.content,
+section#banners div.content,
+section#sb_fullwidth div.content,
+section#sb_universal div.content,
+section#pagelines-soapbox div.content,
+section#pagelines-reader div.content,
+section#pagelines-pricing div.content,
+section#pagelines-profiles div.content {
+	background: #ffffff;
+	
+}
+
+section#highlight div.content-pad, 
+section#carousel div.content-pad,
+section#callout div.content-pad,
+section#pagelines-section-template div.content-pad {
+	background: #ccc url(images/linear_glow.png) no-repeat;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);	
+	border-bottom: 10px solid #9a9078;
+}
+
+.custom .thecarousel {
+background: transparent;
+}
+
+.iPower {
+	width: 315px;
+	padding: 35px 0px 0px 185px;	
+}
+.iPower, .iPower h3, .iPower h2 {
+	text-shadow: #000 0 1px 0;
+	color: #fff;
+}
+
+.page-template-page-home-php section#boxes.clone_3 .content{
+	background: #363636;
+	border-bottom: 10px solid #9a9078;
+}
+
+.page-template-page-home-php section#boxes.clone_3 .content-pad{
+	padding: 0px;
+}
+
+.page-template-page-home-php section#boxes .content {
+	background: #c0b395 url(images/box_glow.png) bottom center repeat-x;
+	border-bottom: 10px solid #9a9078;
+}
+
+.page-template-page-home-php section#boxes.clone_3 div.fbox{
+	padding: 10px;
+	background: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow:none;
+	box-shadow: none;	
+	border-bottom: none;
+
+}
+
+.page-template-page-home-php div.fbox{
+	padding: 10px;
+	background: #cec4ad url(images/box_glow.png) bottom center repeat-x;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);	
+	border-bottom: none;
+
+}
+
+.widget-pad{
+	background: #ccc url(images/linear_glow.png) no-repeat;
+	margin-bottom:10px;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	
+	border: 1px solid #BBB;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+/*	border-bottom: 1px solid white;
+	-moz-box-shadow: inset 0 1px 2px #bbb;
+	-webkit-box-shadow: inset 0 1px 2px #bbb;
+	box-shadow: inset 0 1px 2px #bbb;	
+*/}
+
+section#boxes .content{
+	background: #fff;
+}
+
+	div.fbox{
+		padding: 10px;
+		background: #cec4ad url(images/box_glow.png) bottom center no-repeat;
+	/*	border-bottom: 10px solid #9a9078;*/
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);	
+	border-bottom: 10px solid #9a9078;
+	
+	}
+
+
+.page-template-page-home-php section#features .content-pad {
+		border-bottom: none;
+	}
+
+section#features .content-pad {
+	background:#363636;
+	padding: 15px;
+	border-bottom: 10px solid #9a9078;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);	
+}
+
+div#morefoot_area {
+	background:#1f1f1f;
+}
+
+div#morefoot_area div.content {
+	background: #fff;
+}
+
+
+html #footer a, html #footer .widget-title, html #footer li h5 a {
+text-shadow: #000 0 1px 0;
+color: #fff;
+}
+
+html #twitterbar div.texture {
+	background: #1f1f1f;
+}
+
+
+html #twitterbar div.content{
+	background: #ccc url(images/power_nav.jpg) repeat-x;
+	padding: 15px 0;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+	box-shadow: 0 1px 5px rgba(0,0,0, .8);	
+}
+
+
+html #footer div.content-pad{	
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+/*
+.fixed_width .page-canvas {
+-moz-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+-webkit-box-shadow: 0 1px 5px rgba(0,0,0, .8);
+box-shadow: 0 1px 5px rgba(0,0,0, .8);
+} 
+
+.callout-area, .tbubble {
+background: #DCDCDE url(images/bg-inset.jpg) repeat-x 0 0;
+border: 1px solid #BBB;
+border-right: 1px solid white;
+border-bottom: 1px solid white;
+-moz-box-shadow: inset 0 1px 2px #bbb;
+-webkit-box-shadow: inset 0 1px 2px #bbb;
+box-shadow: inset 0 1px 2px #bbb;
+}
+*/
